@@ -33,6 +33,13 @@ O objetivo do projeto é oferecer uma solução prática para gerenciamento de o
 - Listar todas as colheitas.
 - Alterar colheitas.
 - Excluir colheitas.
+  - **Cálculo da expectativa**: A expectativa de produção é calculada com base na **média nacional de 77,2 t/ha**.
+  - **Status da colheita**:
+    - **Dentro da expectativa**: Quando a quantidade colhida é maior ou igual à expectativa.
+    - **Abaixo da expectativa**: Quando a quantidade colhida é menor que a expectativa.
+- Listar todas as colheitas com o status em relação à expectativa.
+- Alterar colheitas.
+- Excluir colheitas.
 
 ---
 
@@ -65,7 +72,7 @@ COLHEITAPLUS--MAIN/
 │   ├── utils.py             # Funções auxiliares
 │   └── teste_conexao.py     # Teste de conexão com o Oracle
 │
-├──
+| 
 ├── main.py                  
 └── setup.py                 # Entrada principal do sistema
 ```
@@ -103,3 +110,4 @@ Este projeto foi desenvolvido como atividade prática da disciplina de Python ap
  Flavia Nunes Bocchino - RM564213
  Felipe Silva de Menezes - RM557891
  Pedro Henrique Zani - RM564956
+ 
